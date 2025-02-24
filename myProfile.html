@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPersonalProfile</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        }
+
+        /* Profile Picture */
+        img {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        border: 3px solid #007BFF;
+        }
+
+        /* Headings */
+        h3 {
+        color: #333;
+        margin-top: 20px;
+        }
+
+        /* Skills List */
+        ul {
+        list-style-type: circle;
+        padding: 0;
+        }
+
+        /* Experience Table */
+        table {
+        margin: 20px auto;
+        border-collapse: collapse;
+        width: 60%;
+        }
+
+        th, td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        }
+
+        th {
+        background-color: #007BFF;
+        color: white;
+        }
+
+        /* Contact Form Styling */
+        div {
+        margin: 10px 0;
+        }
+
+        label {
+        font-weight: bold;
+        display: block;
+        margin: 5px 0;
+        }
+
+        input {
+        border-radius: 5px;
+        padding: 10px;
+        width: 80%;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        }
+
+        /* Input Focus Effect */
+        input:focus {
+        border-color: #007BFF;
+        outline: none;
+        box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+        }
+
+        /* Button Styling */
+        button {
+        padding: 12px 18px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #007BFF;
+        color: white;
+        font-size: 16px;
+        transition: all 0.3s ease;
+        }
+
+        /* Button Hover Effect */
+        button:hover {
+        background-color: blue;
+        color: white;
+        transform: scale(1.05);
+        }
+        
+            
+        
+
+    </style>
+</head>
+<body>
+    <p>
+        <img src="4gpg.img.jpeg"  height="150" alt="picture"> <br>
+        Name : Muskan rajput
+    </p>
+    <h3>Bio:</h3>
+    <pre>
+        I am a passionate web developer with expertise in HTML, CSS, and Java. 
+        Continuously eager to learn, I thrive on enhancing my skills and staying updated with the latest technologies. 
+        My strong problem-solving abilities and attention to detail enable me to create efficient and visually appealing solutions.
+        I am committed to professional growth and delivering high-quality work.
+    </pre>
+    <h3>My Skills:</h3>
+    <ul> 
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Good Communication Skills</li>
+    </ul>
+    <h3>Experience</h3>
+    <table>
+        <thead>
+            <tr>
+                <th> My Skills </th>
+                <th>Proficiency</th>
+            </tr>
+        
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML</td> 
+                <td>Advance</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Intermediate</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <h3>Contact Me</h3>
+    <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="your name">
+    </div>
+    <div>
+        <label for="EmailId">EmailId</label>
+        <input type="text" placeholder="your EmailId">
+    </div>
+    <div>
+        <label for="message">Message</label>
+        <input type="text" placeholder="message">
+    </div>
+    <div>
+        <button type="message">Message</button>
+    </div>
+    <div>
+        <button type="download">Download Resume</button>
+    </div>
+    
+</body>
+</html>
